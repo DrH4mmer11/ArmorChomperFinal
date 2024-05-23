@@ -1,4 +1,4 @@
-if (!(window.innerWidth/window.innerHeight === 1440/732)) { //ily nas <3
+if (!(window.innerWidth/window.innerHeight === 1440/732)) {
     var wc = document.getElementById("EverythingFitter")
     if (window.innerWidth < 1440) {
         wc.style.width = window.innerWidth
