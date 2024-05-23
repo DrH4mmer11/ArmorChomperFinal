@@ -3446,8 +3446,7 @@ Trebhum.primaries = [TrebhumInhale];
 Trebhum.aliveSprite = "Trebhum.PNG";
 Trebhum.iconSprite = "TrebhumIcon.PNG";
 currentPlant = AC;
-//plantArray = [AC,Peashoot,JadeCac];
-plantArray = [Trebhum];
+plantArray = [AC,Peashoot,JadeCac,Trebhum];
 
 class CharOrAbilityPerk {
     constructor() {
