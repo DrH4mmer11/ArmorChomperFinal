@@ -1792,14 +1792,18 @@ function ResetGame() {
     else {
         ZTS = [];
         CPL = 0;
-        //ZombieArray = [Browncoat, Conehead, Imp, Buckethead, Yeti, GunZomb, FootballZomb, Screendoor, Newspaper, Disco]; 
-        ZombieArray = [AC, Peashoot, JadeCac, Browncoat];
-        AC.plant = false;
-        Peashoot.plant = false;
-        JadeCac.plant = false;
-        AC.powerLevel = 4;
-        Peashoot.powerLevel = 3;
-        JadeCac.powerLevel = 2;
+        if True {
+            ZombieArray = [AC, Peashoot, JadeCac, Browncoat];
+            AC.plant = false;
+            Peashoot.plant = false;
+            JadeCac.plant = false;
+            AC.powerLevel = 4;
+            Peashoot.powerLevel = 3;
+            JadeCac.powerLevel = 2;
+        }
+        else {
+            ZombieArray = [Browncoat, Conehead, Imp, Buckethead, Yeti, GunZomb, FootballZomb, Screendoor, Newspaper, Disco];
+        }
         availablecoords = [];
         for (x=4; x<10; x++) {
             for (y=0; y<5; y++) {
