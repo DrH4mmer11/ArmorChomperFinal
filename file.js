@@ -1792,7 +1792,7 @@ function ResetGame() {
     else {
         ZTS = [];
         CPL = 0;
-        if (true) {
+        if (currentPlant.name == "Trebhum") {
             ZombieArray = [AC, Peashoot, JadeCac, Browncoat];
             AC.plant = false;
             Peashoot.plant = false;
