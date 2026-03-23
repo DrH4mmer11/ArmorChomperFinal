@@ -4106,7 +4106,6 @@ Mitosis.coords = [[0,1]];
 Mitosis.reloadTime = 3;
 Mitosis.STUP = 2;
 Mitosis.zombie = ["Parent"];
-Trebhum.attacks.push(Mitosis);
 Mitosis2 = new SupportType();
 Mitosis2.type = "summon";
 Mitosis2.name = "Mitosis";
