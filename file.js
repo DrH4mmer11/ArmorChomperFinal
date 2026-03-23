@@ -872,6 +872,8 @@ function StartGame() {
     updatebackground();
     updategrid();
     PlantTurnTheme.play();
+    SaveGame(); /* trying this */
+    LoadGame();
 }
 function randomint(start, end) {
     end = end + 0.5
@@ -3319,7 +3321,7 @@ Goop.splashRadius = 3;
 Goop.displaySprite = "GoopIcon.PNG";
 Chomp = new AttackType();
 Chomp.name = "Chomp";
-Chomp.desc = "Bite a zombie with your sharp metal teeth. <br>Dmg: 75 ∫ Range: Melee (1 space) ∫ No cooldown";
+Chomp.desc = "Bite a zombie with your sharp metal teeth. <br>Dmg: 75 ∫ Range: 1 space ∫ No cooldown";
 Chomp.damage = 75;
 Chomp.range = 1;
 Chomp.displaySprite = "ChompIcon.PNG";
@@ -3333,7 +3335,7 @@ Seed.shots = 3;
 Seed.displaySprite = "SeedSpitIcon.PNG";
 Swallow = new AttackType();
 Swallow.name = "Swallow";
-Swallow.desc = "Open up your mouth and eat the zombie in front of you. <br>Dmg: Infinite ∫ Range: Melee (1 space) ∫ Cooldown: 1 turn ∫ Armor Chomper cannot attack for 1 turn";
+Swallow.desc = "Open up your mouth and eat the zombie in front of you. <br>Dmg: Infinite ∫ Range: 1 space ∫ Cooldown: 1 turn ∫ Armor Chomper cannot attack for 1 turn";
 Swallow.range = 1;
 Swallow.reloadTime = 2;
 Swallow.displaySprite = "SwallowIcon.PNG";
@@ -3366,7 +3368,7 @@ Gatling.reloadTime = 2;
 Gatling.displaySprite = "GatlingIcon.PNG";
 Bean = new AttackType();
 Bean.name = "Bean Bomb";
-Bean.desc = "Rock Pea tosses out an explosive bean that is sure to reduce the zombies to ash. <br>Dmg: 150 ∫ Splash Dmg: 75 ∫ Splash Radius: 3 by 3 ∫ Range: Melee (2 spaces) ∫ Cooldown: 3 turns";
+Bean.desc = "Rock Pea tosses out an explosive bean that is sure to reduce the zombies to ash. <br>Dmg: 150 ∫ Splash Dmg: 75 ∫ Splash Radius: 3 by 3 ∫ Range: 2 spaces ∫ Cooldown: 3 turns";
 Bean.damage = 150;
 Bean.splashDamage = 75;
 Bean.splashRadius = 3;
