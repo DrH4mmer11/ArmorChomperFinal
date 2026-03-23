@@ -854,7 +854,7 @@ function StartGame() {
         zhealthbar.style.zIndex = 9001;
         wc.appendChild(zhealthbar);
         zhealth.style.position = "absolute";
-        zhealth.style.fontFamily =  'Marker Felt';
+        zhealth.style.fontFamily = "'Marker Felt', Verdana, sans-serif";
         zhealth.style.fontSize = "1.7vw";
         zhealth.style.zIndex = 9002;
         wc.appendChild(zhealth)
@@ -1047,7 +1047,7 @@ function RemoveZombie(zombie) {
         zhealthbar.style.zIndex = 9001;
         wc.appendChild(zhealthbar);
         zhealth.style.position = "absolute";
-        zhealth.style.fontFamily =  'Marker Felt';
+        zhealth.style.fontFamily = "'Marker Felt', Verdana, sans-serif";
         zhealth.style.fontSize = "1.7vw";
         zhealth.style.zIndex = 9002;
         wc.appendChild(zhealth)
@@ -1281,7 +1281,7 @@ function FireSupport(support) {
                     zhealthbar.style.zIndex = 9001;
                     wc.appendChild(zhealthbar);
                     zhealth.style.position = "absolute";
-                    zhealth.style.fontFamily =  'Marker Felt';
+                    zhealth.style.fontFamily = "'Marker Felt', Verdana, sans-serif";
                     zhealth.style.fontSize = "1.7vw";
                     zhealth.style.zIndex = 9002;
                     wc.appendChild(zhealth)
@@ -1693,7 +1693,7 @@ function LoadGame() {
         zhealthbar.style.zIndex = 9001;
         wc.appendChild(zhealthbar);
         zhealth.style.position = "absolute";
-        zhealth.style.fontFamily =  'Marker Felt';
+        zhealth.style.fontFamily = "'Marker Felt', Verdana, sans-serif";
         zhealth.style.fontSize = "1.7vw";
         zhealth.style.zIndex = 9002;
         wc.appendChild(zhealth)
@@ -1876,7 +1876,7 @@ function ResetGame() {
         zhealthbar.style.zIndex = 9001;
         wc.appendChild(zhealthbar);
         zhealth.style.position = "absolute";
-        zhealth.style.fontFamily =  'Marker Felt';
+        zhealth.style.fontFamily = "'Marker Felt', Verdana, sans-serif";
         zhealth.style.fontSize = "1.7vw";
         zhealth.style.zIndex = 9002;
         wc.appendChild(zhealth)
@@ -4969,7 +4969,7 @@ function TestSupport(zombie,support) {
                     zhealthbar.style.zIndex = 9001;
                     wc.appendChild(zhealthbar);
                     zhealth.style.position = "absolute";
-                    zhealth.style.fontFamily =  'Marker Felt';
+                    zhealth.style.fontFamily = "'Marker Felt', Verdana, sans-serif";
                     zhealth.style.fontSize = "1.7vw";
                     zhealth.style.zIndex = 9002;
                     wc.appendChild(zhealth)
